@@ -1,103 +1,140 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title> Hall Booking </title>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
+  <head>
+    <title>Hall Booking</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
 
-li {
-  float: left;
-}
+      li {
+        float: left;
+      }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
 
-li a:hover:not(.active) {
-  background-color: #111;
-}
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
 
-.active {
-  background-color: #04AA6D;
-}
+      .active {
+        background-color: #04aa6d;
+      }
 
-* {
-  box-sizing: border-box;
-}
+      * {
+        box-sizing: border-box;
+      }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-.column1 {
-  float: left;
-  width:50%;
-}
+      .column1 {
+        float: left;
+        width: 50%;
+      }
 
-/* Clear floats after the columns */
-.row1:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
-</head>
-<body>
+      /* Clear floats after the columns */
+      .row1:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
 
-<ul>
-	<li><h2 style="color: white;margin-left:20px;"> HALL BOOKING </h2></li>
-  
-  <li style="float:right;"><a class="active" href="contact.html" >Contact</a></li>
-  <li style="float:right;"><a  href="index.html" >Home</a></li>
-</ul>
-<br>
-<div class="row1">
-  <div class="column1">
-	<h1 style="color:red;"> Contact Us</h1><hr>
-	  <form>
-	  <label for="fname">Name:</label><br>
-	  <input type="text" id="fname" name="fname" style="width:100%" Placeholder ="Enter Your Name" ><br><br>
-	  <label for="lname">Email:</label><br>
-	  <input type="email" id="em" name="em" style="width:100%" Placeholder ="Enter Your Email ID"><br><br>
-	   <label for="lname1">Mobile No:</label><br>
-	  <input type="text" id="mn" name="mn" style="width:100%" Placeholder ="Enter Your Mobile No"><br><br>
-	   <label for="lname2">Message:</label><br>
-	  <textarea rows="10" style="width:100%" Placeholder ="Type Your Message here..."></textarea><br><br>
-	  <button style="float:right; width:100% ; height:30px; background-color:green;color:white;font-weight:bold;"> Submit </button>
-	</form>
-	</div>
-	
-  <div class="column1" style="text-align:center">
-	<h2 style="color:red;"><u>Location</u></h2><br><br>
-	Jayanagar 4th T Block,<br>
-	Shimogga<br>
-	Landline:080123456789 ext:2#<br>
-	Mobile: 0123456789,9876543210<br>
-	Email: hall@mail.com<br>
+  <body>
+    <ul>
+      <li><h2 style="color: white; margin-left: 20px">HALL BOOKING</h2></li>
 
-	<br><br><br>
+      <li style="float: right">
+        <a class="active" href="contact.html">Contact</a>
+      </li>
+      <li style="float: right"><a href="index.html">Home</a></li>
+    </ul>
+    <br />
+    <div class="row1">
+      <div class="column1">
+        <h1 style="color: red">Contact Us</h1>
+        <hr />
+        <form>
+          <label for="fname">Name:</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            style="width: 100%"
+            placeholder="Enter Your Name"
+          /><br /><br />
+          <label for="lname">Email:</label><br />
+          <input
+            type="email"
+            id="em"
+            name="em"
+            style="width: 100%"
+            placeholder="Enter Your Email ID"
+          /><br /><br />
+          <label for="lname1">Mobile No:</label><br />
+          <input
+            type="text"
+            id="mn"
+            name="mn"
+            style="width: 100%"
+            placeholder="Enter Your Mobile No"
+          /><br /><br />
+          <label for="lname2">Message:</label><br />
+          <textarea
+            rows="10"
+            style="width: 100%"
+            placeholder="Type Your Message here..."
+          ></textarea
+          ><br /><br />
+          <button
+            style="
+              float: right;
+              width: 100%;
+              height: 30px;
+              background-color: green;
+              color: white;
+              font-weight: bold;
+            "
+          >
+            Submit
+          </button>
+        </form>
+      </div>
 
-	<b>For Venue Contracting</b><br>
-	Call At:+91 1234567890
-  </div>
-</div>
-<br>
-<ul>
-	
-	<li style="margin-left:500px;"><h4 style="color:white;"> 2022 ALL Rights Reserved. </h4></li>
- 
-</ul>
-</body>
+      <div class="column1" style="text-align: center">
+        <h2 style="color: red"><u>Location</u></h2>
+        <br /><br />
+        Jayanagar 4th T Block,<br />
+        Shimogga<br />
+        Landline:080123456789 ext:2#<br />
+        Mobile: 0123456789,9876543210<br />
+        Email: hall@mail.com<br />
+
+        <br /><br /><br />
+
+        <b>For Venue Contracting</b><br />
+        Call At:+91 1234567890
+      </div>
+    </div>
+    <br />
+    <ul>
+      <li style="margin-left: 500px">
+        <h4 style="color: white">2022 ALL Rights Reserved.</h4>
+      </li>
+    </ul>
+    <script src="app.js"></script>
+  </body>
 </html>
-
-
