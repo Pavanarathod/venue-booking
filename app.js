@@ -5,6 +5,6 @@ const dateInput = document.querySelectorAll(".date__input");
 
 dateInput.forEach((date) => {
   date.addEventListener("change", (e) => {
-    alert(`No Booking available to this date ${dateInput.value}`);
+    alert(`No Booking available to this date ${date.value}`);
   });
 });
