@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hall Booking</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+
+      .active {
+        background-color: #04aa6d;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Float four columns side by side */
+      .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+      }
+
+      /* Remove extra left and right margins, due to padding */
+      .row {
+        margin: 0 -5px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Style the counter cards */
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+        background-color: #f1f1f1;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><h2 style="color: white; margin-left: 20px">HALL BOOKING</h2></li>
+
+      <li style="float: right"><a href="contact.html">Contact</a></li>
+      <li style="float: right"><a class="active" href="index.html">Home</a></li>
+    </ul>
+
+    <div
+      style="
+        align: center;
+        background-image: url('image/img1.jpg');
+        height: 400px;
+      "
+    >
+      <br /><br /><br /><br /><br />
+      <h1 style="font-size: 50px; text-align: center; color: white">
+        India's Largest Venue & Table Booking Platform
+      </h1>
+    </div>
+    <br />
+
+    <h2><u>Find suitable venue for your event and book online</u></h2>
+    <br />
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="image/img2.jpg" style="width: 100%; height: 150px" />
+          <p>Shimogga</p>
+          <a href="detail.html">
+            <button style="background-color: orange; font-weight: bold">
+              Enquiry
+            </button></a
+          >
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="image/img3.jpg" style="width: 100%; height: 150px" />
+          <p>P. Lagana Mandira</p>
+          <a href="detail.html"
+            ><button style="background-color: orange; font-weight: bold">
+              Enquiry
+            </button></a
+          >
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="image/img4.jpg" style="width: 100%; height: 150px" />
+          <p>Sri Sai International</p>
+          <a href="detail.html"
+            ><button style="background-color: orange; font-weight: bold">
+              Enquiry
+            </button></a
+          >
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="image/img5.jpg" style="width: 100%; height: 150px" />
+          <p>Sarji Convention Hall</p>
+          <a href="detail.html"
+            ><button style="background-color: orange; font-weight: bold">
+              Enquiry
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+    <br />
+    <ul>
+      <li style="margin-left: 500px">
+        <h4 style="color: white">2022 ALL Rights Reserved.</h4>
+      </li>
+    </ul>
+  </body>
+</html>
